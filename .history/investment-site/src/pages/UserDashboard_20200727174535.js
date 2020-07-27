@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 
 import NoInvestment from '../components/NoInvestment'
 import SummaryCards from '../components/SummaryCards'
-import Overview from '../components/Overview'
+
 
 class UserDashboard extends Component {
     render() {
@@ -30,7 +30,7 @@ class UserDashboard extends Component {
                     <div className="row">
                         {/* Overview */}
                         <div className="col-s12 col-md-3 col-lg-3">
-                            <Overview />
+                            
                         </div>
                         <div className="col-s12 col-md-6 col-lg-6"></div>
                         <div className="col-s12 col-md-3 col-lg-3"></div>
