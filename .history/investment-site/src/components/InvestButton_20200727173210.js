@@ -13,7 +13,7 @@ class InvestButton extends Component {
                     <div class="uk-position-center">
                         <div>
                             <p>You have no investments.</p>
-                            <Link to="/Invest" className="uk-button uk-button-primary">Invest now</Link>
+                            <Link to="/invest" className="uk-button uk-button-primary">Invest now</Link>
                         </div> 
                     </div>
                 </div>

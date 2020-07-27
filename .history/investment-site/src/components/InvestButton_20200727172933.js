@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Link} from 'react-router-dom';
+import {Redirect} from 'react-router-dom';
 import NoInvestmentImg from '../assets/no-investment.png'
 
 
@@ -13,7 +13,7 @@ class InvestButton extends Component {
                     <div class="uk-position-center">
                         <div>
                             <p>You have no investments.</p>
-                            <Link to="/Invest" className="uk-button uk-button-primary">Invest now</Link>
+                            <button class="uk-button uk-button-primary">Invest now</button>
                         </div> 
                     </div>
                 </div>

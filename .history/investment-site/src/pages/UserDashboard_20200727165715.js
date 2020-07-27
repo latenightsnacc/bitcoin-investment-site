@@ -14,16 +14,16 @@ class UserDashboard extends Component {
                 <div className="container">
                     <div className="row">
                         <div className="col-s12 col-md-3 col-lg-3">
-                            <SummaryCards title="Last Login" value="0" />
-                        </div>
-                        <div className="col-s12 col-md-3 col-lg-3">
-                            <SummaryCards title="Total Bitcoin Invested" value="0" />
-                        </div>
-                        <div className="col-s12 col-md-3 col-lg-3">
-                            <SummaryCards title="Total Amount" value="0" />
-                        </div>
-                        <div className="col-s12 col-md-3 col-lg-3">
                             <SummaryCards title="Total Transactions" value="0" />
+                        </div>
+                        <div className="col-s12 col-md-3 col-lg-3">
+                            <SummaryCards />
+                        </div>
+                        <div className="col-s12 col-md-3 col-lg-3">
+                            <SummaryCards />
+                        </div>
+                        <div className="col-s12 col-md-3 col-lg-3">
+                            <SummaryCards />
                         </div>
                     </div>
                 </div>

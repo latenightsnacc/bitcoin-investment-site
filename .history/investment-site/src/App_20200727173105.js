@@ -9,6 +9,7 @@ function App() {
     <BrowserRouter>
       <Switch>
           <Route path="/invest" component={Invest} />
+          <Route component={Error}/>
       </Switch>
       <div className="App">
         

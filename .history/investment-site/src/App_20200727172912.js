@@ -7,11 +7,11 @@ import Invest from './pages/Invest'
 function App() {
   return (
     <BrowserRouter>
-      <Switch>
-          <Route path="/invest" component={Invest} />
-      </Switch>
       <div className="App">
-        
+        <Switch>
+          <Route path="/invest" component={Invest} />
+          <Route component={Error}/>
+        </Switch>
         <UserDashboard />
       </div>
     </BrowserRouter>
