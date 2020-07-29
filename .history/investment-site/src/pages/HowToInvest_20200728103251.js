@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class OpenTransaction extends Component {
+class HowToInvest extends Component {
     render() {
         return (
             <div>
@@ -10,4 +10,4 @@ class OpenTransaction extends Component {
     }
 }
 
-export default OpenTransaction
+export default HowToInvest
