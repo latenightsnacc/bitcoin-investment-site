@@ -62,7 +62,7 @@ class SideBar extends Component {
                                 Verification
                             </NavText>
                         </NavItem>
-                        <NavItem eventKey="contact" class="menu-item">
+                        <NavItem eventKey="profile" class="menu-item">
                             <NavIcon>
                             <span class="material-icons" style={{ fontSize: '1.75em' }}>contact_support</span>
                             </NavIcon>

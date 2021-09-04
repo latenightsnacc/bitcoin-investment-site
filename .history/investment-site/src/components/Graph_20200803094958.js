@@ -23,7 +23,7 @@ class Graph extends Component {
       }
     render() {
         return (
-            <Chart options={this.state.options} series={this.state.series} type="area" width={100} height={100} />
+            <Chart  series={this.state.series} type="area" width={100} height={100} />
         )
     }
 }

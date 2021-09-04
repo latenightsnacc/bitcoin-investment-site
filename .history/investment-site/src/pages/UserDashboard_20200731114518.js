@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import SideBar from '../components/SideNav'
 import Header from '../components/Header'
 import SummaryCards from '../components/SummaryCards'
-import TransactionTables from '../components/TransactionsTable'
 
 
 
@@ -26,13 +25,8 @@ class UserDashboard extends Component {
                         <div class="col-sm-12 col-md-3 col-lg-3">
                             <SummaryCards title='Type of Investment' value='Platinum' icon='list' />
                         </div>
-                        <TransactionTables />
                     </div>
                 </div>  
-
-                <div className="container">
-                    <div className="row"></div>
-                </div>
             </>
         )
     }

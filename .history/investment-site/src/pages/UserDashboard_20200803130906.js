@@ -26,7 +26,7 @@ class UserDashboard extends Component {
                         <div class="col-sm-12 col-md-3 col-lg-3">
                             <SummaryCards title='Type of Investment' value='Platinum' icon='list' />
                         </div>
-                        <TransactionTables />
+                        
                     </div>
                 </div>  
 

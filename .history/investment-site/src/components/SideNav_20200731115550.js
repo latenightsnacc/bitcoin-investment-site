@@ -14,7 +14,7 @@ class SideBar extends Component {
                 >
                     <SideNav.Toggle />
                     <SideNav.Nav defaultSelected="dashboard">
-                        <NavItem eventKey="dashboard" class="menu-item">
+                        <NavItem eventKey="dashboard">
                             <NavIcon>
                             <span class="material-icons" style={{ fontSize: '1.75em' }}>dashboard</span>
                             </NavIcon>
@@ -22,7 +22,7 @@ class SideBar extends Component {
                                 Dashboard
                             </NavText>
                         </NavItem>
-                        <NavItem eventKey="investment" class="menu-item">
+                        <NavItem eventKey="investment">
                             <NavIcon>
                             <span class="material-icons" style={{ fontSize: '1.75em' }}>account_balance_wallet</span>
                             </NavIcon>
@@ -30,7 +30,7 @@ class SideBar extends Component {
                                 Investment
                             </NavText>
                         </NavItem>
-                        <NavItem eventKey="withdrawal" class="menu-item">
+                        <NavItem eventKey="withdrawal">
                             <NavIcon>
                             <span class="material-icons" style={{ fontSize: '1.75em' }}>add_shopping_cart</span>
                             </NavIcon>
@@ -38,7 +38,7 @@ class SideBar extends Component {
                                 Withdrawal
                             </NavText>
                         </NavItem>
-                        <NavItem eventKey="transactions" class="menu-item">
+                        <NavItem eventKey="transactions">
                             <NavIcon>
                             <span class="material-icons" style={{ fontSize: '1.75em' }}>credit_card</span>
                             </NavIcon>
@@ -46,28 +46,12 @@ class SideBar extends Component {
                                 Transactions
                             </NavText>
                         </NavItem>
-                        <NavItem eventKey="profile" class="menu-item">
+                        <NavItem eventKey="withdrawal">
                             <NavIcon>
-                            <span class="material-icons" style={{ fontSize: '1.75em' }}>assignment_ind</span>
+                            <span class="material-icons" style={{ fontSize: '1.75em' }}>add_shopping_cart</span>
                             </NavIcon>
                             <NavText>
-                                Profile
-                            </NavText>
-                        </NavItem>
-                        <NavItem eventKey="verification" class="menu-item">
-                            <NavIcon>
-                            <span class="material-icons" style={{ fontSize: '1.75em' }}>verified_user</span>
-                            </NavIcon>
-                            <NavText>
-                                Verification
-                            </NavText>
-                        </NavItem>
-                        <NavItem eventKey="contact" class="menu-item">
-                            <NavIcon>
-                            <span class="material-icons" style={{ fontSize: '1.75em' }}>contact_support</span>
-                            </NavIcon>
-                            <NavText>
-                                Contact Us
+                                Withdrawal
                             </NavText>
                         </NavItem>
                     </SideNav.Nav>

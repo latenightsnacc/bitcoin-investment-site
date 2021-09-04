@@ -1,0 +1,138 @@
+@import 'variables';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+body,html {
+    background-color: $bG;
+    position: relative;
+    overflow-x: hidden;
+    height: 100%;
+}
+#side-nav, #main {
+    position: fixed;
+}
+#side-nav {
+    top: 0px;
+    width: 200px;
+    bottom: 0px;
+    height: 100%;
+    background: red;
+    box-shadow: $bS;
+}
+#main {
+    top: 0px;
+    left: 200px;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    
+}
+
+.header {
+    background-color: $blue;
+    box-shadow: $bS;
+    
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+}
+
+.icon {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.sc-icon {
+    font-size: 50px;
+    color: $blue;
+}
+
+#side {
+    width: 100%;
+    box-shadow: $bS;
+}
+.sideNav-menu {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    
+
+    img{
+        height: 100px;
+    }
+    .logo {
+        font-size: 50px;
+        line-height: 100px;
+    }
+    .side-menu {
+        padding-top: 20px;
+    }
+    li {
+        margin-bottom: 20px;
+        .menu-item {
+            display: flex;
+            align-items: center;
+            color: rgb(65, 60, 60);
+
+            &:hover {
+                color: blue;
+            }
+        }
+        
+    }
+}
+.card {
+    border: 1px solid $white;
+    .card-header{
+        background-color: $white !important;
+        border: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    .card-title {
+        display: flex;
+        flex-direction: column;
+        font-size: 22px;
+        padding-left: 10px;
+        span {
+            font-size: 14px;
+            color: grey;
+        }
+    }
+}
+.card-container {
+    display: flex;
+    height: 120px;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.progress-bar {
+    background-color: blue !important;
+}
+
+.table-title {
+    font-size: 25px;
+    padding-bottom: 10px;
+}

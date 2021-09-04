@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import Graph from './Graph'
 
 class SummaryCards extends Component {
     render() {
@@ -12,7 +11,7 @@ class SummaryCards extends Component {
                         </div>
                     </div>
                     <div class="card-body">
-                        <h2>Graph</h2>
+                        <h2>GRAPH</h2>
                     </div>
                 </div>
         )

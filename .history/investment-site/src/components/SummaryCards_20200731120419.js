@@ -12,7 +12,7 @@ class SummaryCards extends Component {
                         </div>
                     </div>
                     <div class="card-body">
-                        <h2>Graph</h2>
+                        <Graph />
                     </div>
                 </div>
         )
